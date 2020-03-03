@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FlowerButton">
+        <attr name="flowerButtonChildCount" format="reference|integer" />
+
+    </declare-styleable>
+
+    <declare-styleable name="LinkView">
+        <attr name="linkViewPointOuterColor" format="reference|color" />
+        <attr name="linkViewLineColor" format="reference|color" />
+        <attr name="linkViewPointCount" format="reference|integer" />
+        <attr name="linkViewPointInnerColor" format="reference|color" />
+        <attr name="linkViewVibrate" format="reference|boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="BlockPieView">
+        <attr name="blockPieViewProgressWidth" format="reference|dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="SimplePieView">
+        <attr name="simplePieViewStartColor" format="reference|color" />
+        <attr name="simplePieViewEndColor" format="reference|color" />
+        <attr name="simplePieViewEmptyColor" format="reference|color" />
+        <attr name="simplePieViewStartAndEndTextSize" format="reference|dimension" />
+        <attr name="simplePieViewStartAndEndTextColor" format="reference|color" />
+        <attr name="simplePieViewProgressWidth" format="reference|dimension" />
+        <attr name="simplePieViewCurrentProgressTextSize" format="reference|dimension" />
+        <attr name="simplePieViewCurrentProgressTextColor" format="reference|color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="RoundProgressView">
+        <attr name="roundProgressViewOutsideLineColor" format="reference|color" />
+        <attr name="roundProgressViewAnimationTime" format="reference|dimension" />
+        <attr name="roundProgressViewOutsideLineWidth" format="reference|dimension" />
+        <attr name="roundProgressViewInnerCircleColor" format="reference|color" />
+        <attr name="roundProgressViewInnerCircleProgressTextColor" format="reference|color" />
+        <attr name="roundProgressViewInnerCircleProgressTextSize" format="reference|dimension" />
+        <attr name="roundProgressViewProgressCircleColor" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="LotteryView">
+        <attr name="lotteryViewScratchSize" format="reference|dimension" />
+        <attr name="lotteryViewScratchPercent" format="reference|integer" />
+
+    </declare-styleable>
+
+    <declare-styleable name="AutoTextView">
+        <attr name="AutoTextViewMode">
+            <enum name="scrollable" value="0" />
+            <enum name="fix" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="MultipleSectionProgressView">
+        <attr name="multipleSectionProgressViewStrokeWidth" format="reference|dimension" />
+        <attr name="multipleSectionProgressViewInnerMargin" format="reference|dimension" />
+        <attr name="multipleSectionProgressViewAnimationTime" format="reference|integer" />
+        <attr name="multipleSectionProgressViewMaxValue" format="reference|float" />
+        <attr name="multipleSectionProgressViewTargetValue" format="reference|float" />
+    </declare-styleable>
+
+    <declare-styleable name="RockerView">
+        <attr name="rockerViewInnerCircleRadius" format="reference|dimension" />
+        <attr name="rockerViewInnerCircleLineColor" format="reference|color" />
+        <attr name="rockerViewInnerCircleColor" format="reference|color" />
+        <attr name="rockerViewOuterCircleLineColor" format="reference|color" />
+        <attr name="rockerViewOuterCircleColor" format="reference|color" />
+
+    </declare-styleable>
+</resources>
